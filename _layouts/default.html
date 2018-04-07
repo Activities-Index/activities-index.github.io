@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="{{ '/assets/css/fonts/stylesheet.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" href="Favicon.png">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
+      <a href="http://indestructibletype.com" class="btn">SUBMIT</a>
+      <a href="http://indestructibletype.com" class="btn">DONATE</a>
+      <a href="http://indestructibletype.com" class="btn">ABOUT</a>
+      <a href="{{ site.url }}" class="btn">HOME</a>
+    </section>
+
+    <section class="main-content">
+
+      <h1> {{ page.title }} </h1>
+      <h2> <b>{{ page.artist | upcase }}</b> &nbsp; {{ page.date | date: "%m/%d/%Y" }} </h2>
+      <br><br>
+      {{ content }}
+
+    </section>
+
+      <footer class="site-footer">
+        <h1>Created with love by <a href="http://facebook.com/EwonRael">Owen Earl</a></h1>
+        <p>Powered by <a href="http://jekyllrb.com/">Jekyll</a>. View on <a href="wo!">GitHub</a>.</p>
+      </footer>
+  </body>
+</html>
