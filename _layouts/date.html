@@ -47,7 +47,7 @@
       {% for item in sorted %}
       <li>
         <div class="list">
-          <h2><b><a href="{{ post.url }}">{{ item.title | upcase}}</b><br>{{ item.artist | upcase }}</a></h2><br><br>
+          <h2><b><a href="{{ item.url }}">{{ item.title | upcase}}</b><br>{{ item.artist | upcase }}</a></h2><br><br>
         </div>
       </li>
       {% endfor %}
