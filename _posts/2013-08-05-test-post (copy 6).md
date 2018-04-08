@@ -2,7 +2,6 @@
 layout: default
 title: "Devil Never Even Lived"
 artist: "Joam of Arc"
-description: "Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage."
 date: 2018-03-05
 ---
 

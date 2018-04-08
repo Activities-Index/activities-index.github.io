@@ -23,20 +23,29 @@
   <body>
     <section class="page-header">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
-      <a href="http://indestructibletype.com" class="btn">SUBMIT</a>
+      <p class="btn">SUBMIT</p>
       <a href="https://www.paypal.me/EwonRael" class="btn">DONATE</a>
-      <a href="{{ site.url }}/About" class="btn">ABOUT</a>
+      <a href="About" class="btn">ABOUT</a>
       <a href="{{ site.url }}" class="btn">HOME</a>
     </section>
 
     <section class="main-content">
 
       <h1> {{ page.title }} </h1>
-      <h2> <b>{{ page.artist | upcase }}</b> &nbsp; {{ page.date | date: "%m/%d/%Y" }} <br></h2><p>{{ page.description }}</p>
       <br>
       {{ content }}
+      <form method="POST" action="https://formspree.io/RaelEwon@gmail.com">
+        <input type="hidden" name="_subject" value="New Activity Submision!" />
+        <input type="text" placeholder="Name of Activity" name="name"><br><div id="black"></div><br>
+        <input type="text" placeholder="Name of artist" name="artist"><br><div id="black"></div><br>
+        <input type="text" placeholder="Where did you find this?" name="book"><br><div id="black"></div><br>
+        <textarea name="message" placeholder="Please transcribe the full text of the Activity here."></textarea><br><br>
+        <input name="email" placeholder="Your email" type="email"><br><div id="black"></div><br>
+        <button type="submit">SEND</button>
+        <input type="hidden" name="_next" value="https://activities-index.github.io/Thanks" />
+      </form>
       <br><br><br>
-      <h2 style="text-align: center;"><b><a href="{{ site.url }}">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" onclick="randomSite();">RANDOM</a></b></h2>
+      <h2 style="text-align: center;"><b><a href="{{ site.url }}">HOME</a></b></h2>
     </section>
 <br><br><br>
       <footer class="site-footer">

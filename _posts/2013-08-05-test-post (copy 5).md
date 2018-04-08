@@ -2,7 +2,6 @@
 layout: default
 title: "When Will I Die?"
 artist: "Owen Earl"
-description: "Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage."
 date: 2018-03-15
 ---
 

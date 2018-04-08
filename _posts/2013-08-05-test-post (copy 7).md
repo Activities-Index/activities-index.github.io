@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Don't Tell Me It's Over"
-artist: "Paul of NewYork"
-description: "Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage."
+artist: "Vareoius Artists"
 date: 2014-03-05
 ---
 

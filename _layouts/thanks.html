@@ -5,9 +5,9 @@
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="{{ '/assets/css/fonts/stylesheet.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" href="Favicon.png">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Activities-Index/activities-index.github.io/master/Favicon.png">
     <script>
       var sites = [
           {% for post in site.posts %}'{{ post.url }}',
@@ -23,33 +23,19 @@
   <body>
     <section class="page-header">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
-      <a href="http://indestructibletype.com" class="btn">SUBMIT</a>
+      <p class="btn">SUBMIT</p>
       <a href="https://www.paypal.me/EwonRael" class="btn">DONATE</a>
       <a href="About" class="btn">ABOUT</a>
       <a href="{{ site.url }}" class="btn">HOME</a>
     </section>
 
-    <div class="sidebar">
-      <p>
-        <b>SORT BY:</b><br>
-        <u>DATE INDEXED</u><br>
-        <a href="Name">NAME</a><br>
-        <a href="Artist">ARTIST</a><br>
-        <a href="Date">DATE CREATED</a><br>
-      </p><br>
-      <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
-    </div>
-
     <section class="main-content">
-      <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sorted by {{page.title}} </h1>
-      <br><br>
-      {% for post in site.posts %}
-      <li>
-        <div class="list">
-          <h2 class="date">{{ post.date | date: "%m / %d / %y" }}</h2><h2><b><a href="{{ post.url }}">{{ post.title | upcase}}</b><br>{{ post.artist | upcase }}</a></h2><br><br>
-        </div>
-      </li>
-      {% endfor %}
+
+      <h1> {{ page.title }} </h1>
+      <br>
+      {{ content }}
+      <br><br><br>
+      <h2 style="text-align: center;"><b><a href="{{ site.url }}">HOME</a></b></h2>
     </section>
 <br><br><br>
       <footer class="site-footer">

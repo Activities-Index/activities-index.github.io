@@ -2,7 +2,6 @@
 layout: default
 title: "A Longform Post to Cogitate"
 artist: "Owen Earl"
-description: "Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage."
 date: 2012-03-05
 ---
 
