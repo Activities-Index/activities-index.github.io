@@ -1,16 +1,11 @@
 ---
 layout: default
-title: "Pacific Tell"
+title: "Telepathic Improvisation"
 artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i>"
+group: "Group"
 date: 1971-11-01
 ---
-Find your place in a darkened indoor space or a deserted out-of-doors area. Mentally form a sound image. Assume that the magnitude of your concentration on, or the vividness of this sound image will cause one or more of the group to receive this sound image by telepathic transmission. Visualize the person to whom you are sending. Rest after your attempted tele­pathic transmission by becoming mentally blank. When or if a sound image different from your own forms in your mind, assume that you are receiving from some one else, then make that sound image audible. Rest again by becoming mentally blank or return to your own mental sound image. Continue as long as possible or until all others are quiet.
-
-<br>
-
-### Telepathic Improvisation
-
 To the musicians with varied or like instruments:
 Tuning - each musician in turn sits or stands in front of the audience for a few minutes. The audience is asked to observe the musician carefully and try to imagine the sound of his or her instrument. The audience is instructed to close eyes and attempt to visualize the musician, then send a sound to the musician by hearing it mentally. The musician waits until he or she receives an impression of a sound mentally, then he or she produces the sound. Members of the audience who have successfully "hit the target" raise their hands as feedback to the musician.
 

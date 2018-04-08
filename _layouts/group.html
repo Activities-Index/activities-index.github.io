@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/fonts/stylesheet.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Activities-Index/activities-index.github.io/master/Favicon.png">
+    <link rel="shortcut icon" href="Favicon.png">
     <script>
       var sites = [
           {% for post in site.posts %}'{{ post.url }}',
@@ -26,33 +26,32 @@
       <a href="Submit" class="btn">SUBMIT</a>
       <a href="https://www.paypal.me/EwonRael" class="btn">DONATE</a>
       <a href="About" class="btn">ABOUT</a>
-      <p class="btn">HOME</p>
+      <a href="{{ site.url }}" class="btn">HOME</a>
     </section>
 
     <div class="sidebar">
       <p>
         <b>SORT BY:</b><br>
-        <u>DATE INDEXED</u><br>
+        <a href="IndexDate">DATE INDEXED</a><br>
         <a href="Name">NAME</a><br>
         <a href="Artist">ARTIST</a><br>
         <a href="Date">DATE CREATED</a><br>
-        <a href="Group">GROUP SIZE</a><br>
+        <u>GROUP SIZE</u><br>
       </p><br>
       <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
     </div>
 
     <section class="main-content">
-      {% for post in site.posts limit:5 %}
+      <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sorted by {{page.title}} </h1>
+      <br><br>
+      {% assign sorted = (site.posts | sort: 'group') %}
+      {% for item in sorted %}
       <li>
         <div class="list">
-          <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-          <h2>{{ post.artist | upcase }}</h2>
-          <p>{{ post.content | strip_html | strip_newlines | truncate: 160 }}</p>
-          <br><br><br><br>
+          <h2 class="date" style="font-family: inherit;">&nbsp;&nbsp;{{ item.group }}</h2><h2><b><a href="{{ item.url }}">{{ item.title | upcase}}</b><br>{{ item.artist | upcase }}</a></h2><br><br>
         </div>
       </li>
       {% endfor %}
-      <h2 style="text-align: center;"><b><a href="IndexDate">VIEW ALL</a></b></h2>
     </section>
 <br><br><br>
       <footer class="site-footer">

@@ -3,6 +3,7 @@ layout: default
 title: "Nothin&#8217; Tea Talk Show"
 artist: "Owen Earl"
 description: "perfect for college students"
+group: "Solo"
 date: 2018-02-15
 ---
 Wake up in the middle of the night, preferably due to natural causes (an inability to sleep).
