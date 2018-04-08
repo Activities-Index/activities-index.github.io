@@ -34,6 +34,9 @@ ol li {
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   font-family: "metropolis", sans-serif;
@@ -162,6 +165,7 @@ p.btn {
 }
 
 .main-content {
+  flex: 1;
   word-wrap: break-word;
 
   :first-child {
@@ -442,8 +446,8 @@ button {
 .site-footer {
   text-align: center;
   padding-top: 1rem;
-  margin-top: 1rem;
-  margin-bottom: -5em;
+  margin-top: 5rem;
+  margin-bottom: 0;
   padding-left: 0;
   color: #ffffff;
   background-color: #000000;
@@ -480,11 +484,4 @@ button {
   @include small {
     font-size: 0.9rem;
   }
-}
-
-#bottom {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  margin-bottom: 0;
 }
