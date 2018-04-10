@@ -7,7 +7,7 @@ group: "Solo"
 date: 1965-07-25
 indexed: 2018-04-10
 ---
-*consider printing these instructions out before following them*
+*consider printing these instructions out and cutting them into cards before following them*
 
 <br>
 
