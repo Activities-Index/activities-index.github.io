@@ -36,5 +36,5 @@ indexed: 2018-04-10
 | return to the preceding page <br> write your name on this page | erase or scratch out your name from the preceding page
 | put this page in some obvious place | tear this page into many small pieces then reconstruct it
 | hold on to this page for 24 hours | this page is not a work of art
-| this page is a work of art | sign here please /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+| this page is a work of art | sign here please ________________
 | send this page to the police | think of five interesting things to do with the next five pages
