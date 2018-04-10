@@ -9,9 +9,7 @@ indexed: 2018-04-10
 ---
 *consider printing these instructions out before following them*
 
-
-| | |
-| ---------- | ---------- |
+<br>
 | imagine some unknown color on the left corner of this page | take a photo of this page |
 | send this page to Ray Johnson, 176 Suffolk Street, New York, U.S.A. | look through this hole at the world |
 | fold this page many times to the smallest possible size | paint this page white |
