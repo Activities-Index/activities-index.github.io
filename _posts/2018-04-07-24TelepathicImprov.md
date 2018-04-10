@@ -5,6 +5,7 @@ artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i>"
 group: "Group"
 date: 1971-11-01
+indexed: 2018-04-04
 ---
 To the musicians with varied or like instruments:
 Tuning - each musician in turn sits or stands in front of the audience for a few minutes. The audience is asked to observe the musician carefully and try to imagine the sound of his or her instrument. The audience is instructed to close eyes and attempt to visualize the musician, then send a sound to the musician by hearing it mentally. The musician waits until he or she receives an impression of a sound mentally, then he or she produces the sound. Members of the audience who have successfully "hit the target" raise their hands as feedback to the musician.

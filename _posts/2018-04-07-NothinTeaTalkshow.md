@@ -5,6 +5,7 @@ artist: "Owen Earl"
 description: "perfect for college students"
 group: "Solo"
 date: 2018-02-15
+indexed: 2018-04-07
 ---
 Wake up in the middle of the night, preferably due to natural causes (an inability to sleep).
 

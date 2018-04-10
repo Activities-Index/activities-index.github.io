@@ -42,12 +42,13 @@
     </div>
 
     <section class="main-content">
-      {% for post in site.posts limit:5 %}
+      {% assign sorted = (site.posts | sort: 'indexed' | reverse) %}
+      {% for item in sorted limit:5 %}
       <li>
         <div class="list">
-          <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-          <h2>{{ post.artist | upcase }}</h2>
-          <p>{{ post.content | strip_html | strip_newlines | truncate: 160 }}</p>
+          <h1><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></h1>
+          <h2>{{ item.artist | upcase }}</h2>
+          <p>{{ item.content | strip_html | strip_newlines | truncate: 160 }}</p>
           <br><br><br><br>
         </div>
       </li>

@@ -44,10 +44,11 @@
     <section class="main-content">
       <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sorted by {{page.title}} </h1>
       <br><br>
-      {% for post in site.posts %}
+      {% assign sorted = (site.posts | sort: 'indexed' | reverse) %}
+      {% for item in sorted %}
       <li>
         <div class="list">
-          <h2 class="date">{{ post.date | date: "%m / %d / %y" }}</h2><h2><b><a href="{{ post.url }}">{{ post.title | upcase}}</b><br>{{ post.artist | upcase }}</a></h2><br><br>
+          <h2 class="date">{{ item.date | date: "%m / %Y" }}</h2><h2><b><a href="{{ item.url }}">{{ item.title | upcase}}</b><br>{{ item.artist | upcase }}</a></h2><br><br>
         </div>
       </li>
       {% endfor %}

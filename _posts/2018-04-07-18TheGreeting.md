@@ -5,6 +5,7 @@ artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i>"
 group: "Group"
 date: 1971-11-01
+indexed: 2018-04-04
 ---
 <i>Informed persons should begin the greeting at least half-an-hour or more before a scheduled meeting or program.</i>
 

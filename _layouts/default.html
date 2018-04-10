@@ -32,7 +32,7 @@
     <section class="main-content">
 
       <h1> {{ page.title }} </h1>
-      <h2> <b>{{ page.artist | upcase }}</b> &nbsp; {{ page.date | date: "%m/%d/%Y" }} <br></h2><p>{{ page.group }} Activity<br>{{ page.description }}</p>
+      <h2> <b>{{ page.artist | upcase }}</b> &nbsp; {{ page.date | date: "%B %Y" }} <br></h2><p>{{ page.group }} Activity<br>{{ page.description }}</p>
       <br>
       {{ content }}
       <br><br><br>

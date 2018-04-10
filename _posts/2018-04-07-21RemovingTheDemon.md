@@ -5,6 +5,7 @@ artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i>"
 group: "Group"
 date: 1971-11-01
+indexed: 2018-04-04
 ---
 Sit in a circle with persons facing in and out alternately. If the number in the group is odd, seat the left over person in the center. Each person except the center person has a pair of resonant rocks. Begin the meditation by establishing mentally a tempo as slow as possible. Each person begins independently to strike the rocks together full force maintaining the imagined tempo. When enough energy is present, shout a pre-meditated word. Once selected, the word remains the same. The shout is free of the established tempo, and may occur one or more times during the meditation. The center person is without rocks and selects a word, phrase or sentence to say or intone repeatedly either silently or audibly for the duration of the meditation.
 
