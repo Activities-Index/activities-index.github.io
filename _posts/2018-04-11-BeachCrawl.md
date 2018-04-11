@@ -40,3 +40,8 @@ As is plain from the description of the event, it must be done with solemnity.
 no stopping to bark at dogs
 
 no altering of straight ahead course for horses or fishermen.
+
+<br>
+
+Diagram: <br>
+![Beach Crawl](https://activities-index.github.io/assets/beach%20crawl%20diagram.svg)
