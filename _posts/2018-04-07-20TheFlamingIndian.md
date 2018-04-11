@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "The Flaming Indian"
+title: "Flaming Indian"
+the: "The "
 artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i> | for Gerald Shapiro and Margot Blum"
 group: "Group/Solo"

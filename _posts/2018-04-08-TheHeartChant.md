@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "The Heart Chant"
+title: "Heart Chant"
+the: "The "
 artist: "Pauline Oliveros"
 group: "Group"
 date: 1971-11-01

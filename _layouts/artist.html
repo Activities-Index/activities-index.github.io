@@ -24,7 +24,6 @@
     <section class="page-header">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
       <a href="Submit" class="btn">SUBMIT</a>
-      <a href="https://www.paypal.me/EwonRael" class="btn">DONATE</a>
       <a href="About" class="btn">ABOUT</a>
       <a href="{{ site.url }}" class="btn">HOME</a>
     </section>
@@ -44,13 +43,21 @@
     <section class="main-content">
       <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sorted by {{page.title}} </h1>
       <br><br>
-      {% assign sorted = (site.posts | sort: 'artist') %}
-      {% for item in sorted %}
+
+      {% assign years = site.posts | group_by: "artist" %}
+      {% assign yearsSorted = years | sort: "name" %}
+      {% for y in yearsSorted %}
       <li>
         <div class="list">
-          <h2 class="date">{{ item.date | date: "%m / %d / %y" }}</h2><h2><b><a href="{{ item.url }}">{{ item.title | upcase}}</b><br>{{ item.artist | upcase }}</a></h2><br><br>
-        </div>
-      </li>
+        <h2><b>{{ y.name | upcase }}</b></h2><br>
+            {% assign yearTitlesSorted = y.items | sort: "title" %}
+            {% for item in yearTitlesSorted %}
+                <h2 class="date">{{ item.date | date: "%m / %Y" }}</h2><h2><a href="{{ item.url }}">{{ item.the | upcase}}{{ item.title | upcase}}</a></h2><br>
+            {% endfor %}
+            <br>
+          </div>
+          <br>
+        </li>
       {% endfor %}
     </section>
 <br><br><br>

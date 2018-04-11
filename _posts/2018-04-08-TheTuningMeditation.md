@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "The Tuning Meditation"
+title: "Tuning Meditation"
+the: "The "
 artist: "Pauline Oliveros"
 group: "Group"
 date: 1971-11-01

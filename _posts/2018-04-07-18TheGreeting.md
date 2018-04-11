@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "The Greeting"
+title: "Greeting"
+the: "The "
 artist: "Pauline Oliveros"
 description: "from <i>Sonic Meditations</i>"
 group: "Group"
