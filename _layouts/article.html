@@ -8,17 +8,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="{{ '/assets/css/fonts/stylesheet.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/Activities-Index/activities-index.github.io/master/Favicon.png">
-    <script>
-      var sites = [
-          {% for post in site.posts %}'{{ post.url }}',
-          {% endfor %}
-      ];
-
-      function randomSite() {
-          var i = parseInt(Math.random() * sites.length);
-          location.href = sites[i];
-      }
-  </script>
   </head>
   <body>
     <section class="page-header">
@@ -31,11 +20,11 @@
     <section class="main-content">
 
       <h1> {{ page.the }}{{ page.title }} </h1>
-      <h2> <b><a href="{{ site.url }}/artist/{{ page.artist }}">{{ page.artist | upcase }}</a></b> &nbsp; {{ page.date | date: "%B %Y" }} <br></h2><p>{{ page.group }} Activity<br>{{ page.description }}</p>
+      <h2> <b>{{ page.artist | upcase }}</b> &nbsp; {{ page.date | date: "%B %Y" }} <br></h2><p>{{ page.group }} Activity<br>{{ page.description }}</p>
       <br>
       {{ content }}
       <br><br><br>
-      <h2 style="text-align: center;"><b><a href="{{ site.url }}">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" onclick="randomSite();">RANDOM</a></b></h2>
+      <h2 style="text-align: center;"><b><a href="{{ site.url }}">HOME</a></b></h2>
     </section>
 <br><br><br>
       <footer class="site-footer">

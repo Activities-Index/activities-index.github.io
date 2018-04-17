@@ -49,7 +49,7 @@
       {% for y in yearsSorted %}
       <li>
         <div class="list">
-        <h2><b>{{ y.name | upcase }}</b></h2><br>
+        <h2><b><a href="{{ site.url }}/artist/{{ y.name }}">{{ y.name | upcase }}</a></b></h2><br>
             {% assign yearTitlesSorted = y.items | sort: "title" %}
             {% for item in yearTitlesSorted %}
                 <h2 class="date">{{ item.date | date: "%m / %Y" }}</h2><h2><a href="{{ item.url }}">{{ item.the | upcase}}{{ item.title | upcase}}</a></h2><br>

@@ -364,7 +364,9 @@ p.btn {
   .list {
     width: 50rem;
     padding-left: 15em;
-
+    a:hover {
+      text-decoration: none;
+    }
     .date {
       float: right;
       text-align: right;

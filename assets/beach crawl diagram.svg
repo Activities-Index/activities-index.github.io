@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,9 +59,9 @@
      inkscape:window-height="1027"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.7412062"
-     inkscape:cx="304.81116"
-     inkscape:cy="54.933373"
+     inkscape:zoom="1.2312187"
+     inkscape:cx="213.63549"
+     inkscape:cy="54.950767"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -142,7 +142,7 @@
            id="path4331" />
         <path
            inkscape:connector-curvature="0"
-           d="m 498.44619,100.05856 -7.12968,13.58594 -3.37044,-14.968305 c 2.79935,2.688965 7.04191,3.234135 10.50012,1.382365 z"
+           d="m 492.1641,137.25531 -12.62335,8.72131 3.96602,-14.82164 c 1.23049,3.68141 4.73469,6.1344 8.65733,6.10033 z"
            style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82375079;stroke-linejoin:round;stroke-opacity:1"
            id="path4333" />
         <path
@@ -152,7 +152,7 @@
            id="path4335" />
         <path
            inkscape:connector-curvature="0"
-           d="m 275.36883,118.04302 4.90466,-14.53803 5.68221,14.25211 c -3.18735,-2.21533 -7.46286,-2.08659 -10.58687,0.28592 z"
+           d="m 291.19922,132.47814 -5.83946,-14.1884 13.64025,7.02521 c -3.85881,0.42004 -7.00045,3.32291 -7.80079,7.16319 z"
            style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82375079;stroke-linejoin:round;stroke-opacity:1"
            id="path4337" />
         <path
@@ -162,7 +162,7 @@
            id="path4339" />
         <path
            inkscape:connector-curvature="0"
-           d="m 605.01914,96.542423 -5.4948,14.325407 -5.0949,-14.47246 c 3.09413,2.343757 7.37133,2.389895 10.5897,0.147053 z"
+           d="m 552.369,64.177344 11.84841,9.748092 -15.34104,0.250153 c 3.20289,-2.19279 4.60099,-6.235298 3.49263,-9.998245 z"
            style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82375079;stroke-linejoin:round;stroke-opacity:1"
            id="path4341" />
         <path
@@ -170,6 +170,36 @@
            d="m 553.44953,157.87948 -15.34297,0.059 11.64963,-9.9848 c -1.06587,3.73239 0.43824,7.73667 3.69334,9.92585 z"
            style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.82375079;stroke-linejoin:round;stroke-opacity:1"
            id="path4343" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59454894;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path856"
+           cx="167.77487"
+           cy="96.003464"
+           r="10.28054" />
+        <circle
+           r="10.28054"
+           cy="98.399826"
+           cx="278.00769"
+           id="circle858"
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59454894;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59454894;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle860"
+           cx="388.24051"
+           cy="100.79619"
+           r="10.28054" />
+        <circle
+           r="10.28054"
+           cy="100.79619"
+           cx="491.28421"
+           id="circle862"
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59454894;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:3.59454894;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle864"
+           cx="596.72437"
+           cy="103.19255"
+           r="10.28054" />
       </g>
       <path
          style="fill:none;stroke:#000000;stroke-width:1.19818294;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3651)"

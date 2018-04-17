@@ -45,9 +45,9 @@
       {% for item in sorted limit:5 %}
       <li>
         <div class="list">
-          <h1><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></h1>
-          <h2>{{ item.artist | upcase }}</h2>
-          <p>{{ item.content | strip_html | strip_newlines | truncate: 160 }}</p>
+          <h1><a href="{{ item.url }}">{{ item.title }}</a></h1>
+          <h2><a href="{{ site.url }}/artist/{{ item.artist }}">{{ item.artist | upcase }}</a></h2>
+          <p><a href="{{ item.url }}">{{ item.content | strip_html | strip_newlines | truncate: 160 }}</a></p>
           <br><br><br><br>
         </div>
       </li>
