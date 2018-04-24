@@ -11,7 +11,7 @@ indexed: 2018-04-23
 
 12:03 - Open your eyes
 
-12:00'05" - Shut your eyes
+12:03'05" - Shut your eyes
 
 12:04 - Open your eyes
 
