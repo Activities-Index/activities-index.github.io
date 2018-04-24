@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Falling Event"
+title: "Mirror Piece"
 artist: "Mieko Shiomi"
 group: "Solo/Group"
 date: 1963-01-01
