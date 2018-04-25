@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Event for the Midnight"
+title: "Boundary Music"
 artist: "Mieko Shiomi"
 group: "Solo/Group"
 date: 1963-01-01

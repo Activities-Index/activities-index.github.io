@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Boundary Music"
+title: "Event for the Midnight"
 artist: "Mieko Shiomi"
 group: "Solo/Group"
 description: "in the sunlight"
