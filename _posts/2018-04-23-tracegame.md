@@ -18,7 +18,7 @@ The leader must walk more than 500 meters.
 
 Coming near the starting point, he must make a loop of his trace.
 
-The folloerts may take any of the three courses at each crossing point, but must not return or stop.
+The followers may take any of the three courses at each crossing point, but must not return or stop.
 
 All must move at the same tempo.
 
