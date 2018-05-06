@@ -2,7 +2,7 @@
 layout: default
 title: "Event for the Midday"
 artist: "Mieko Shiomi"
-group: "Solo/Group"
+group: "Group/solo/group fixSolo"
 description: "in the sunlight"
 date: 1963-01-01
 indexed: 2018-04-23
