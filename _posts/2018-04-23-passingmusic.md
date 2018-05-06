@@ -2,7 +2,7 @@
 layout: default
 title: "Passing Music for a Tree"
 artist: "Mieko Shiomi"
-group: "Solo/Group"
+group: "Group/Solo"
 date: 1964-07-01
 indexed: 2018-04-23
 ---
