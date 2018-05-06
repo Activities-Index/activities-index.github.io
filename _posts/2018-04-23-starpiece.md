@@ -2,7 +2,7 @@
 layout: default
 title: "Star Piece"
 artist: "Mieko Shiomi"
-group: "Solo/Group"
+group: "Group/Solo"
 description: "Do this piece on the roof of a building or in the park."
 date: 1963-01-01
 indexed: 2018-04-23
