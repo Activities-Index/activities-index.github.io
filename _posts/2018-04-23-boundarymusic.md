@@ -2,7 +2,7 @@
 layout: default
 title: "Boundary Music"
 artist: "Mieko Shiomi"
-group: "Solo/Group"
+group: "Group/Solo"
 date: 1963-01-01
 indexed: 2018-04-23
 ---
