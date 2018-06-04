@@ -15,7 +15,7 @@ At first, it will feel as though you are calling no one, or someone who isn't th
 
 The feeling will be sutble at first, almost impreceptable. At this point it is importand to pay close attantion to this feeling. Keep calling yourself, mechanicaly and without conscious thought, but listen to the voice from afar that is calling to you. 
 
-You will start to dissociative, as if you have doubled. Neither your body, nor your voice has doubled, and yet you will feel as though the one who is calling and the one who is being called are not the same and the same simultaneously. You know that both people are one and the same and yet this is a truth you can no longer hold with full confidence.
+You will start to dissociate, as if you have doubled. Neither your body, nor your voice has doubled, and yet you will feel as though the one who is calling and the one who is being called are not the same and the same simultaneously. You know that both people are one and the same and yet this is a truth you can no longer hold with full confidence.
 
 Continue this exprement for some minuets, taking in as many aspects of the experence as you can. Cultivate the feeling of unease and dizziesness as you become slightly freed from yourself. 
 
