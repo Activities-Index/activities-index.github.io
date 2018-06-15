@@ -7,7 +7,7 @@ group: "Solo"
 date: 2001-01-15
 indexed: 2018-06-04
 ---
-Find a quiet room, preferably minimally furnished, and sit in the center. First, take in the silence, thinking about how you will soon disrupt it. Consiter the minute sounds and the peacefulness. Prepare for the introduction of speech.
+Find a quiet room, preferably minimally furnished, and sit in the center. First, take in the silence, thinking about how you will soon disrupt it. Consider the minute sounds and the peacefulness. Prepare for the introduction of speech.
 
 Say your first name out loud, articulating clearly. Begin to repeat it insistently, as if you were calling to someone you know from a distance, who cannot see you.
 
