@@ -3,7 +3,6 @@ layout: default
 title: "Event for the Midnight"
 artist: "Mieko Shiomi"
 group: "Group/Solo"
-description: "in the sunlight"
 date: 1963-10-01
 indexed: 2018-04-23
 ---

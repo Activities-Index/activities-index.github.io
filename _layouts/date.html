@@ -19,14 +19,62 @@
           location.href = sites[i];
       }
   </script>
+  <script>
+  function valueser() {
+     if(document.getElementById("Submit").style.visibility == 'visible') {
+        document.getElementById("Submit").style = 'visibility: hidden';
+        document.getElementById("About").style = 'visibility: hidden';
+        document.getElementById("Home").style = 'visibility: hidden';
+        document.getElementById("head").style = 'margin-bottom: -5em;';
+      }
+     else {
+        document.getElementById("Submit").style = 'visibility: visible;';
+        document.getElementById("About").style = 'visibility: visible';
+        document.getElementById("Home").style = 'visibility: visible';
+        document.getElementById("head").style = 'margin-bottom: 1em;';
+      }
+  }
+  </script>
+  <script>
+  function visibility() {
+     if(document.getElementById("name").style.display == 'block') {
+        document.getElementById("name").style = 'display: none';
+        document.getElementById("artist").style = 'display: none';
+        document.getElementById("date").style = 'display: none';
+        document.getElementById("group").style = 'display: none';
+        document.getElementById("mar").style = 'margin-top: 0;';
+      }
+     else {
+        document.getElementById("name").style = 'display: block;';
+        document.getElementById("artist").style = 'display: block';
+        document.getElementById("date").style = 'display: block;';
+        document.getElementById("group").style = 'display: block; margin-top: -4em;';
+        document.getElementById("mar").style = 'margin-top: 2.5em;';
+      }
+  }
+  </script>
   </head>
   <body>
-    <section class="page-header">
+    <section class="page-header" id="head">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
-      <a href="Submit" class="btn">SUBMIT</a>
-      <a href="About" class="btn">ABOUT</a>
-      <a href="{{ site.url }}" class="btn">HOME</a>
+      <button onclick="valueser();">☰</button>
+      <a href="Submit" class="btn" id="Submit">SUBMIT</a>
+      <a href="About" class="btn" id="About">ABOUT</a>
+      <a href="{{ site.url }}" class="btn" id="Home">HOME</a>
     </section>
+
+    <div class="sidebar">
+      <p>
+        <b>SORT BY:</b><br>
+        <button onclick="visibility();">DATE CREATED</button><br>
+        <a id="name" href="IndexDate">DATE INDEXED</a><br>
+        <a id="artist" href="Name">NAME</a><br>
+        <a id="date" href="Artist">ARTIST</a><br>
+        <u>DATE CREATED</u><br>
+        <a id="group" href="Group">GROUP SIZE</a><br>
+      </p><br>
+      <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
+    </div>
 
     <section class="main-content">
       <h1 id="mar">Sorted by {{page.title}} </h1>
@@ -40,18 +88,6 @@
       </li>
       {% endfor %}
     </section>
-
-        <div class="sidebar">
-          <p>
-            <b>SORT BY:</b><br>
-            <a href="IndexDate">DATE INDEXED</a><br>
-            <a href="Name">NAME</a><br>
-            <a href="Artist">ARTIST</a><br>
-            <u>DATE CREATED</u><br>
-            <a href="Group">GROUP SIZE</a><br>
-          </p><br>
-          <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
-        </div>
 
 <br><br><br>
       <footer class="site-footer">

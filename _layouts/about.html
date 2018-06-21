@@ -19,13 +19,28 @@
           location.href = sites[i];
       }
   </script>
+  <script>
+  function valueser() {
+     if(document.getElementById("Home").style.visibility == 'visible') {
+        document.getElementById("Home").style = 'visibility: hidden';
+        document.getElementById("Submit").style = 'visibility: hidden';
+        document.getElementById("head").style = 'margin-bottom: -5em;';
+      }
+     else {
+        document.getElementById("Home").style = 'visibility: visible; margin-top: -2em;';
+        document.getElementById("Submit").style = 'visibility: visible;';
+        document.getElementById("head").style = 'margin-bottom: -1em;';
+      }
+  }
+  </script>
   </head>
   <body>
-    <section class="page-header">
+    <section class="page-header" id="head">
       <h1 class="project-name"><a href="{{ site.url }}">{{ site.title | upcase }}</a></h1>
-      <a href="Submit" class="btn">SUBMIT</a>
-      <p class="btn">ABOUT</p>
-      <a href="{{ site.url }}" class="btn">HOME</a>
+      <button onclick="valueser();">☰</button>
+      <a href="Submit" class="btn" id="Submit">SUBMIT</a>
+      <u class="btn" id="About">ABOUT</u>
+      <a href="{{ site.url }}" class="btn" id="Home">HOME</a>
     </section>
 
     <section class="main-content">
