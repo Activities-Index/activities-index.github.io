@@ -2,24 +2,6 @@
 @import "rouge-github";
 @import "variables";
 
-@mixin large {
-  @media screen and (min-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin small {
-  @media screen and (max-width: #{$medium-breakpoint}) {
-    @content;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -65,31 +47,20 @@ a {
   float: right;
   margin-left: 1em;
   margin-right: 1em;
+  font-size: 1.2rem;
+
+  @media only screen and (max-width: 45em) {
+    float: left;
+    margin: 0.3em;
+    margin-right: 22em;
+    border-bottom: 1px solid white;
+    margin-left: 0;
+  }
 
   &:hover {
   text-decoration: none;
   color: $section-headings-color;
   border-bottom: 1px solid currentColor;
-  }
-
-  @include large {
-    font-size: 1.2rem;
-  }
-
-  @include medium {
-    font-size: 1.2rem;
-  }
-
-  @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
-
-    + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
   }
 }
 
@@ -98,6 +69,13 @@ p.btn {
   text-decoration: none;
   color: $section-headings-color;
   border-bottom: 1px solid currentColor;
+
+  @media only screen and (max-width: 45em) {
+    float: left;
+    margin: 0.3em;
+    margin-right: 20em;
+    margin-left: 0;
+  }
 }
 
 .page-header {
@@ -105,19 +83,11 @@ p.btn {
   text-align: center;
   background-color: $header-bg-color;
   margin-bottom: 3em;
+  padding: 1rem 6rem;
 
-  @include large {
-    padding: 1rem 6rem;
+  @media only screen and (max-width: 60em) {
+    padding: 1rem 1rem;
   }
-
-  @include medium {
-    padding: 0.5rem 4rem;
-  }
-
-  @include small {
-    padding: 0 1rem;
-  }
-
 }
 
 .project-name {
@@ -126,19 +96,7 @@ p.btn {
   font-weight: 800;
   font-family: "metropolis";
   float: left;
-
-  @include large {
-    font-size: 1.2rem;
-  }
-
-  @include medium {
-    font-size: 1.2rem;
-  }
-
-  @include small {
-    font-size: 1.2rem;
-  }
-
+  font-size: 1.2rem;
   a {
     color: inherit;
     text-decoration: none;
@@ -150,43 +108,23 @@ p.btn {
   margin-bottom: 0;
   font-weight: normal;
   color: $section-headings-color;
-
-  @include large {
-    font-size: 1.25rem;
-  }
-
-  @include medium {
-    font-size: 1.15rem;
-  }
-
-  @include small {
-    font-size: 1rem;
-  }
+  font-size: 1.25rem;
 }
 
 .main-content {
   flex: 1;
   word-wrap: break-word;
+  max-width: 64rem;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+
+  @media only screen and (max-width: 60em) {
+    padding: 1rem 1rem;
+  }
 
   :first-child {
     margin-top: 0;
-  }
-
-  @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    font-size: 1rem;
   }
 
   img {
@@ -364,6 +302,17 @@ p.btn {
   .list {
     width: 50rem;
     padding-left: 15em;
+
+    @media only screen and (max-width: 60em) {
+      padding-left: 12em;
+      width: 40rem;
+    }
+
+    @media only screen and (max-width: 45em) {
+      padding-left: 0;
+      width: 100%;
+    }
+
     a:hover {
       text-decoration: none;
     }
@@ -385,6 +334,15 @@ p.btn {
   line-height: 2em;
   font-weight: 300;
   letter-spacing: 0.1em;
+
+  @media only screen and (max-width: 60em) {
+    padding-left: 1rem;
+  }
+
+  @media only screen and (max-width: 45em) {
+    margin-top: 3em;
+    position: relative;
+  }
 
   u {
     padding-bottom: 0.2em;
@@ -413,6 +371,19 @@ input {
   border: 0;
 }
 
+#mar {
+
+padding-left: 12rem;
+
+  @media only screen and (max-width: 60em) {
+    padding-left: 10rem;
+  }
+
+  @media only screen and (max-width: 45em) {
+    padding-left: 0;
+  }
+}
+
 textarea {
   margin-top: 0.8em;
   font-weight: 500;
@@ -434,6 +405,18 @@ button {
   background-color: inherit;
 }
 
+#center {
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 45em) {
+    text-align: left;
+  }
+}
+
 #black {
   background-color: #000000;
   height: 1px;
@@ -453,6 +436,7 @@ button {
   padding-left: 0;
   color: #ffffff;
   background-color: #000000;
+  font-size: 1rem;
 
   h1 {
     font-family: "metropolis";
@@ -473,17 +457,5 @@ button {
     a {
       color: #ffffff;
     }
-  }
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
   }
 }

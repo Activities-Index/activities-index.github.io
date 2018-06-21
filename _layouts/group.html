@@ -28,23 +28,11 @@
       <a href="{{ site.url }}" class="btn">HOME</a>
     </section>
 
-    <div class="sidebar">
-      <p>
-        <b>SORT BY:</b><br>
-        <a href="IndexDate">DATE INDEXED</a><br>
-        <a href="Name">NAME</a><br>
-        <a href="Artist">ARTIST</a><br>
-        <a href="Date">DATE CREATED</a><br>
-        <u>GROUP SIZE</u><br>
-      </p><br>
-      <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
-    </div>
-
     <section class="main-content">
       {% assign years = site.posts | group_by: "group" %}
       {% assign yearsSorted = years | sort: "name" %}
       {% for y in yearsSorted %}
-      <h1> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{y.name}} Activities</h1>
+      <h1 id="mar">{{y.name}} Activities</h1>
       <br><br>
       <li>
         <div class="list">
@@ -59,6 +47,19 @@
         <br><br>
       {% endfor %}
     </section>
+
+        <div class="sidebar">
+          <p>
+            <b>SORT BY:</b><br>
+            <a href="IndexDate">DATE INDEXED</a><br>
+            <a href="Name">NAME</a><br>
+            <a href="Artist">ARTIST</a><br>
+            <a href="Date">DATE CREATED</a><br>
+            <u>GROUP SIZE</u><br>
+          </p><br>
+          <p><b><a href="#" onclick="randomSite();">GO TO RANDOM</a></b></p>
+        </div>
+
 <br><br><br>
       <footer class="site-footer">
         <h1>Created with love by <a href="http://facebook.com/EwonRael">Owen Earl</a></h1>
