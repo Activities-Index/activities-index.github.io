@@ -124,6 +124,7 @@ p.btn {
 }
 
 .main-content {
+  z-index: 1;
   flex: 1;
   word-wrap: break-word;
   max-width: 64rem;
