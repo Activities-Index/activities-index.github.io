@@ -1,9 +1,8 @@
----
+﻿---
 layout: default
 title: "Beach Crawl"
 artist: "Walter De Maria"
 group: "Solo"
-description: "Terry Riley has played semi-professional baseball. At that time he did not realize how great he was."
 date: 1960-07-01
 indexed: 2018-04-11
 ---
