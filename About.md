@@ -14,12 +14,14 @@ Thus there exists a need to document and index Activities. To create a museum of
 
 For the sake of this project, there are some rules about what make something an Activity, and therefore appropriate to include. They are as follows:
 
-1. The art must exist within the internal experience of the performer. Acts of theatre, performance art, and odd recipes, although interesting, are not Activities, because there is an intended audience outside of the performer themselves.
+<ol>
+<li style="list-style-type: decimal;"> The art must exist within the internal experience of the performer. Acts of theatre, performance art, and odd recipes, although interesting, are not Activities, because there is an intended audience outside of the performer themselves.</li><br>
 
-2. The instructions, no matter how bizarre, must be safely performable. Instructions such as "eat the moon" or "set yourself on fire" are not able to be safely performed and are therefore not Activities.
+<li style="list-style-type: decimal;"> The instructions, no matter how bizarre, must be safely performable. Instructions such as "eat the moon" or "set yourself on fire" are not able to be safely performed and are therefore not Activities.</li><br>
 
-3. Activities in this index must be able to be performed by an average person, without any prior specialized knowledge. Activities that require an advanced knowledge of programing or a musical instrument are not to be included.
+<li style="list-style-type: decimal;"> Activities in this index must be able to be performed by an average person, without any prior specialized knowledge. Activities that require an advanced knowledge of programing or a musical instrument are not to be included.</li><br>
+</ol>
 
 If you know of an Activity that you would like to see included in this index, head over to the [<u>Submit</u>](Submit) page to send it in!
 
-If you have any further questions feel free to email me at EwonRael@yahoo.com.
+If you have any further questions feel free to email me at [<u>EwonRael@yahoo.com</u>](mailto:EwonRael@yahoo.com).
