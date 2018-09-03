@@ -2,10 +2,24 @@
 layout: about
 title: "About"
 ---
-One of the more important people in the history of performance art is the artist [Allan Kaprow (1927 - 2006)](https://en.wikipedia.org/wiki/Allan_Kaprow). Kaprow is most known for establishing the artistic frameworks known as the "[Happening](https://en.wikipedia.org/wiki/Happening)" and "[Environment](https://en.wikipedia.org/wiki/Installation_art)", which have informed what we view as art, as well as the audience's relationship to art. Less known, however, is the type of art he proposed in his later years called the "Activity".
+In his 1969 Essay *The Activity: A New Form of Art*, Michael Kirby proposes that a not yet classified art form exists, which he lays out as follows:
+> In all traditional art, the work&mdash;the thing that gives the art its objective reality&mdash;is available to everyone. Experiences of a work may differ, and spectators at a performance necessarily view it from different distances and angles, for example, but the thing is there to be perceived. <br><br>In the new art form under discussion, the “thing” has moved inside the body, so to speak. The actions of the person himself become the object of his own attention. This work of art can only be seen by one person, and it can only be viewed from within. Since the object of the aesthetic experience has become the self-perceived behavior of an individual, I refer to the form as “Activities”
 
-In activities, the internal experience of the performer becomes the art object, which means the creation, experience, and interpretation of the art all happens within the performer. Activities are things to be done for the sake of having the experience of having done that thing.
+Once considered, there are many pieces from many art movements that could be consisted an Activity. The surrealists created games and techniques to generate source material (a well known example being Exquisite Corpse); Alan Kaprov, known for inventing the Happening of the performance art movement, also created Activities in his later life; participants in the Fluxus movement, of which Yoko Ono was a member, often created art that was to be preformed. It seems the Activity is a common, if not inevitable part of art creation.
 
-Kaprow is far from the only person to have been working within this line of thought. The composer Pauline Oliveros wrote a series of what she dubbed "Sonic Meditations", which are activities to be performed by a group, not for an audience but for the group.
+Thus there exists a need to document and index Activities. To create a museum of sorts, through which an audience member can discover and browse the instructions for Activities throughout history. This is that museum. Welcome.
+<br><br><br><br>
 
-Despite how common this type of writing and thinking is, there isn't an easily navigable, existing index dedicated to these kind of activities. Or at least there wasn't until now. The Activities Index is an ongoing project looking to catalog any and all instructions for Activities. It's a bit of a collaborative project, so if there are any Activities that you think would be appropriate for the site do submit them. The hope is that as we check back on the site in the future more Activities will be added.
+<h1>What is an Activity?<br><br></h1>
+
+For the sake of this project, there are some rules about what make something an Activity, and therefore appropriate to include. They are as follows:
+
+1. The art must exist within the internal experience of the performer. Acts of theatre, performance art, and odd recipes, although interesting, are not Activities, because there is an intended audience outside of the performer themselves.
+
+2. The instructions, no matter how bizarre, must be safely performable. Instructions such as "eat the moon" or "set yourself on fire" are not able to be safely performed and are therefore not Activities.
+
+3. Activities in this index must be able to be performed by an average person, without any prior specialized knowledge. Activities that require an advanced knowledge of programing or a musical instrument are not to be included.
+
+If you know of an Activity that you would like to see included in this index, head over to the [<u>Submit</u>](Submit) page to send it in!
+
+If you have any further questions feel free to email me at EwonRael@yahoo.com.
