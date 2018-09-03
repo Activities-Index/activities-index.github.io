@@ -42,14 +42,14 @@
         document.getElementById("artist").style = 'display: none';
         document.getElementById("date").style = 'display: none';
         document.getElementById("group").style = 'display: none';
-        document.getElementById("mar").style = 'margin-top: 0;';
+        document.getElementById("mad").style = 'margin-bottom: 0;';
       }
      else {
         document.getElementById("name").style = 'display: block; margin-top: -4em;';
         document.getElementById("artist").style = 'display: block; margin-top: -4em;';
         document.getElementById("date").style = 'display: block; margin-top: -4em;';
         document.getElementById("group").style = 'display: block; margin-top: -4em;';
-        document.getElementById("mar").style = 'margin-top: 2.5em;';
+        document.getElementById("mad").style = 'margin-bottom: 7em;';
       }
   }
   </script>
@@ -63,7 +63,7 @@
       <a href="{{ site.url }}" class="btn" id="Home">HOME</a>
     </section>
 
-    <div class="sidebar">
+    <div class="sidebar" id="mad">
       <p>
         <b>SORT BY:</b><br>
         <button onclick="visibility();">DATE INDEXED</button><br>
