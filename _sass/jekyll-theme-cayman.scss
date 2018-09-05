@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: "metropolis", sans-serif;
+  font-family: "textfont", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -145,6 +145,7 @@ p.btn {
   }
 
   h1 {
+    font-family: "metropolis";
     font-weight: 800;
     font-size: 3em;
     margin-bottom: 0.3em;
@@ -156,6 +157,7 @@ p.btn {
   }
 
   h2 {
+    font-family: "metropolis";
     font-size: 1.2rem;
     color: $section-headings-color;
     letter-spacing: 0.1em;
@@ -340,6 +342,7 @@ p.btn {
 }
 
 .sidebar {
+  font-family: "metropolis";
   margin-top: 7em;
   position: absolute;
   font-size: 1.2rem;
@@ -379,6 +382,7 @@ p.btn {
     }
 
     button {
+      font-family: "metropolis";
       display: block;
       margin-right: 1rem;
       float: right;
@@ -465,6 +469,7 @@ button {
 }
 
 .site-footer {
+  font-family: "metropolis";
   text-align: center;
   padding-top: 1rem;
   margin-top: 5rem;
