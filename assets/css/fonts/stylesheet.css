@@ -10,6 +10,17 @@
 
 
 @font-face {
+    font-family: 'textfont';
+    src: url('TEXTIT.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
     font-family: 'metropolis';
     src: url('Metropolis-Black.otf') format('opentype');
     font-weight: 900;
